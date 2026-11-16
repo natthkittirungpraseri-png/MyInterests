@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>MyInterests</title>
+    <link rel="stylesheet" href="Style.css">
+</head>
+<body>
+    <div class="Container">
+        <div class="header">My Interests</div>
+        <nav>
+            <ul id="filter-buttons">
+                <li><button class="filter-btn active" data-category="all">All</button></li>
+                <li><button class="filter-btn" data-category="render">Render</button></li>
+                <li><button class="filter-btn" data-category="perspective">Perspective</button></li>
+                <li><button class="filter-btn" data-category="anatomy">Anatomy</button></li>
+                <li><button class="filter-btn" data-category="hair">Hair</button></li>
+            </ul>
+        </nav>
+        <div class="gallery">
+            <div class="image-box Scroll" data-category="anatomy">
+                <img src="Picture/Anatomy.jpg">
+            </div>
+            <div class="image-box" data-category="hair">
+                <img src="Picture/Hair.jpg">
+            </div>
+            <div class="image-box" data-category="perspective">
+                <img src="Picture/perspective123.jpg">
+            </div>
+            <div class="image-box" data-category="render">
+                <img src="Picture/Render.jpg">
+            </div>
+            <div class="image-box" data-category="render">
+                <img src="Picture/RenderEye.jpg">
+            </div>
+            <div class="image-box" data-category="render">
+                <img src="Picture/RenderSkin.jpg">
+            </div>
+        </div>
+    </div>
+    <script src="Search.js"></script>
+</body>
+</html>
